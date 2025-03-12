@@ -85,11 +85,11 @@ WSGI_APPLICATION = "Django_Tutorial_CICD.wsgi.app"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'neondb',
+        'PASSWORD': 'npg_zWHyU7uqE5sf',
         'USER': 'neondb_owner',
-        'PASSWORD': 'npg_Q2qV1IeYlJMg',
-        'HOST': 'ep-soft-hill-a78ddcei-pooler.ap-southeast-2.aws.neon.tech',
+        'HOST': 'ep-autumn-union-a77muxli-pooler.ap-southeast-2.aws.neon.tech',
         'PORT': 5432,
     }
 }
